@@ -1,12 +1,15 @@
 body{
     font-family: 'Be Vietnam Pro', sans-serif;
     padding: 0;
+    margin: 0 auto;
     
 }
-section{
-    
+.top-section{
+    margin-bottom: 140px;
 }
-  
+.mission-section{
+    margin-bottom: 140px;
+}
 h1{
     font-size: 60px;
 }
@@ -34,7 +37,7 @@ h4{
 }
 .split-section{
     display: flex;
-    margin-bottom: 140px;
+    
 }
 .half-width{
     width: 100%;
@@ -42,13 +45,12 @@ h4{
 
 }
 #img-one{
-    margin-top: 0;
+    background-image: url(images/shapes/shape-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
     width: 60%;
 }
-/* .half-width img{
-    margin-top: 0;
-    width: 60%;
-} */
 .left-border{
     border-left: 5px solid;
     border-top-left-radius: 5px;
@@ -60,34 +62,69 @@ h4{
 .three-part{
     width: 20%;
     margin-left: 5%;
-    
-    background-color: thistle;
+    background-color: orchid;
     padding: 3%;
     border-radius: 10px;
+}
+#bg-color-one{
+    background-color: rgb(249, 211, 113);
+}
+#bg-color-two{
+    background-color: cyan;
 }
 
 .three-part img{
     width: 30%;
 }
-.forty-percent{
-    width: 40%;
-}
+
 
 .sixty-percent{
     width: 60%;
 }
 .develop-section{
-    margin-left: 10%;
-    margin-right: 10%;
+    background-image: url(images/shapes/shape-6.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 50%;
 }
+.forty-percent{
+    width: 50%;
+}
+
 .community-section{
-    margin-left: 10%;
-    margin-right: 10%;
+    background-image: url(images/shapes/shape-7.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50%;
 }
-.full-width{
+
+.bg-img-comm{
+    margin-left: 10%;
+}
+.widt{
+    padding: 10%;
+}
+.widt img{
     width: 80%;
 }
-.eighty-percent{
-    padding-right: 10%;
+footer{
+    margin-top: 100px;
+    color: blanchedalmond;
+    background-color: rgb(22, 0, 64);
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 1px;
 }
+footer h4{
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+}
+.sleep-code{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
 
