@@ -3,6 +3,10 @@ body{
     padding: 0;
     
 }
+section{
+    
+}
+  
 h1{
     font-size: 60px;
 }
@@ -11,8 +15,14 @@ h2{
     text-align: center;
     color: blueviolet;
 }
+h4{
+    font-size: 25px;
+}
 .color-change{
     color: rgb(243, 121, 77);
+}
+.btn-margin{
+    margin: 30px 0px;
 }
 .button-design{
     
@@ -27,16 +37,18 @@ h2{
     margin-bottom: 140px;
 }
 .half-width{
-    width: 50%;
-    margin-left: 10%;
+    width: 100%;
+    padding-left: 10%;
+
 }
-.btn-margin{
-    margin: 30px 0px;
-}
-.half-width img{
+#img-one{
     margin-top: 0;
     width: 60%;
 }
+/* .half-width img{
+    margin-top: 0;
+    width: 60%;
+} */
 .left-border{
     border-left: 5px solid;
     border-top-left-radius: 5px;
@@ -48,10 +60,34 @@ h2{
 .three-part{
     width: 20%;
     margin-left: 5%;
+    
     background-color: thistle;
     padding: 3%;
     border-radius: 10px;
 }
+
 .three-part img{
     width: 30%;
 }
+.forty-percent{
+    width: 40%;
+}
+
+.sixty-percent{
+    width: 60%;
+}
+.develop-section{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.community-section{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.full-width{
+    width: 80%;
+}
+.eighty-percent{
+    padding-right: 10%;
+}
+
